@@ -1,0 +1,29 @@
+.card {
+  width: 25%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2%;
+  padding: 2%;
+  text-align: left;
+}
+
+.card-logo {
+  margin: 1rem 0;
+}
+
+.card:hover {
+  /* transform: translateY(-2px); */
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  border-color: var(--primary) !important;
+  transition: 0.25s;
+  outline: 1px solid var(--primary);
+}
+
+.card-active {
+  z-index: 3;
+  border-color: var(--primary) !important;
+  transition: 0.25s;
+  outline: 1px solid var(--primary);
+}
